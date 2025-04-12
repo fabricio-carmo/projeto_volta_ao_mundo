@@ -1,0 +1,51 @@
+    main {
+    height: 100%;
+    background-image: url('imagens/imagen_fundo.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc107;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .container {
+    background-color: rgba(28, 28, 28, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  img {
+    border: 3px solid #ffc107;
+    max-height: 350px;
+    object-fit: cover;
+  }
+  
+  small {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  .row.mb-5 {
+    margin-bottom: 4rem !important;
+  }
+  
